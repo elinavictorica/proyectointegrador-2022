@@ -1,0 +1,1107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+p{
+letter-spacing: 1px;
+font-family: 'Nanum Myeongjo', serif;
+  }
+
+
+.uno{
+background: #dedcdc58;
+display:flex;
+justify-content:space-between;
+position: fixed;
+width:100%;
+left:0;
+top:0;
+
+}
+
+.logo{
+    width:100px;
+    margin-top: 2%;
+   
+}
+
+    .logo img{
+        width: 100%;
+        
+    }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    
+}
+
+nav ul{
+    margin-top: 5%;
+    
+  }
+
+  nav ul li{
+    display: inline-block;
+  }
+  
+  nav ul li a{
+    font-size: 1.1rem;
+    padding-right: 2rem;
+    color: BLACK;
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: Regular;
+ text-decoration: none;
+
+  }
+  
+  
+  li a:hover{
+    color: rgb(209, 174, 76);
+  }
+
+  .fotografias{
+    width:700px;
+    box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+    align-content: center;
+    padding:20px;
+    margin:auto;
+    margin-top: 10%;
+    margin-bottom: 6%;
+  
+  }
+  
+    .fotografias img{
+      width:100%;
+    }
+
+#cajanegra{
+  background: black;
+  padding-top: 4rem;
+}
+
+#galeria .col-lg-4{
+ padding: 25px;
+ margin: 0;
+}
+
+#galeria img{
+  width: 100%;
+  height:250px;
+}
+
+#galeria img:hover{
+  border:5px solid #171616;
+}
+
+h1{
+  color:rgb(254, 185, 2);
+  padding: 10px;
+  font-family: 'rubik distressed';
+  Font-size: 80px;
+  text-align: center;
+}
+
+#curriculum{
+background-color: rgb(254, 185, 2);
+margin-top: 2REM;
+margin-bottom: 2rem;
+}
+
+  #curriculum p{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(19, 18, 17);
+    
+  }
+
+h2{
+  color:rgb(12, 12, 11);
+  text-align: center;
+  padding: 5%;
+  font-family: 'Nanum Myeongjo', serif;
+Font-size: 40px;
+}
+
+
+@keyframes animlatido{
+  0%{transform: scale(1);}
+  50%{transform: scale(1.25);}
+  100%{transform: scale(1)}
+  
+}
+
+h4{
+  color:rgb(12, 12, 11);
+  text-align: center;
+  padding: 5%;
+  font-family: 'Nanum Myeongjo', serif;
+Font-size: 40px;
+animation-name: animlatido;
+animation-duration: 2s;
+transform-origin: center;
+animation-iteration-count: infinite;
+}
+
+
+
+.claqueta{
+  width:200px;
+  margin: auto;
+
+}
+
+  .claqueta img{
+    width: 100%;
+   
+  }
+
+  .terciario{
+    margin-top: 1%;
+    display: flex;
+    font-family: 'Nanum Myeongjo', serif;
+  background-image: url(../img/pistola.jpeg);
+  background-size: cover;
+  color:rgb(254, 185, 2);
+  }
+  
+  .terciario div{
+   width: 50%; 
+   padding: 3%;
+   margin-top: 5%;
+  }
+  
+  .terciario div img{
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .terciario input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: none;
+    color: #c6c6c6;
+    display:block;
+    border:none;
+  border-bottom:1px solid;
+  }
+  
+  .terciario textarea{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+   color: #ffff;
+   background: none;
+   display:block;
+border-bottom: 1px solid #fff;
+resize: none;
+
+  
+  }
+
+  form{
+    margin: 0 auto;
+    background-color:rgb(66, 47, 1);
+    padding: 20px;
+    box-shadow: 0 0 6px 0 rgb(254, 185, 2);
+    border-radius: 10px;
+    width:400px;
+    font-size: 15px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .btn{
+    margin: auto;
+  }
+ 
+
+ .collage{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+ }
+ 
+ .sangre{
+  width:800px;
+ }
+  .sangre img{
+    width:100%;
+  }
+
+.gif{
+  width: 900px;
+  padding: 10%;
+  margin-top: 5%;
+background-image: url(../img/manchadesangre.png);
+}
+
+  .gif img{
+    width:100%;
+  }
+
+footer{
+  background: rgb(19, 18, 17);
+  text-align: center;
+  padding: 5%;
+  color: rgb(254, 185, 2); 
+}
+
+h3{
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+Font-size: 30px;
+color: rgb(19, 18, 17);
+background: #dedcdc58;
+margin-top: 5rem;
+padding: 1%;
+}
+
+.dirigido{
+  width:400px;
+  padding: 10px;
+ margin: auto;
+  box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+
+ 
+}
+
+.dirigido img{
+  width: 100%;
+  margin-top: 120px;
+}
+
+
+.antes{
+  width:1000px;
+  padding: 30px;
+  margin: auto;
+
+}
+
+  .antes img{
+    width: 100%;
+    box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+  }
+
+.antesdos{
+  width:500px;
+  padding: 30px;
+  margin: auto;
+}
+
+.antesdos img{
+  width: 100%;
+  box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+}
+
+.intro{
+  width:100%;
+  
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+.listado{
+  width: 40%;
+ text-decoration: none;
+ margin-top: 150px;
+}
+ul{
+  list-style-type: none;
+  
+}
+
+li{
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 30px;
+}
+
+li a:hover{
+  color: rgb(250,211,14);
+}
+
+.movies{
+  width: 35%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+ 
+ 
+
+}
+  .movies img{
+      width: 100%;
+      border-radius: 50%;
+      transition:1s;
+      
+  }
+  .movies img:hover{
+      border-radius: 100%;
+      box-shadow: 0 0 30px 10px rgba(255,255, 0.8);
+
+  }
+
+  .contacto{
+    width: 80%;
+    background-color:rgba(5, 7, 12, 0.10);
+   margin:auto;
+   margin-bottom:50px;
+   display:flex;
+   justify-content:space-evenly;
+   padding: 10px;
+   
+}
+
+.telefono{
+    width:8%;
+letter-spacing: 00.1em;
+overflow: hidden;
+}
+    .telefono img{
+        width:100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+
+    .telefono img:hover{
+        transform: scale(1.2);
+    }
+
+ h4{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+
+      }
+  
+  .info{
+      width:90%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: auto;
+      padding: 10px;
+  }
+  
+.historia{
+      width: 15%;
+      text-align: center;
+  
+      
+  }
+.historia img{
+      width:100%;
+      border-radius: 1.5em;
+      margin-bottom: 10px;
+      }
+  
+.historia h3{
+      margin-bottom: 10px;
+      letter-spacing: 0.2px;
+      color: black;
+      }
+
+.educacion{
+    width: 30%;
+    text-align: center;
+    margin-top: 45px;
+        
+    }
+    
+  .educacion img{
+    width:100%;
+    border-radius: 1.3em;
+    margin-bottom: 63px;
+    }
+    
+        .educacion h3{
+            margin-bottom: 10px;
+           letter-spacing: 0.2px;
+           color:black;
+           margin-top: 30px;
+        }
+
+        .cajapremios{
+          width:90%;
+          margin:auto;
+          background-color: rgb(254, 185, 2);
+          margin-top: 40px;
+      }
+
+.premios{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding:20px;
+      
+      }
+      
+ .cajapremios h2{
+    padding:20px;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: 1px;
+          }
+      
+.cajapremios ul li{
+    font-size: 15px;
+    text-align: left;
+              
+        }
+
+.primer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+      
+   }
+
+.libro{
+   width:30%;
+  text-align: center;
+      }
+      
+.libro img{
+     width:100%;
+    margin-bottom: 1%;
+    box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+    padding:5px;
+          }
+.libro h3{
+    letter-spacing: 0.1em;
+    margin-bottom: 2%;
+    color:black;
+          }
+
+.peli{
+      width:112%;
+        }
+.peli img{
+      width:100%;
+      margin-bottom: 1%;
+      box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+      padding:5px;
+            }
+
+.podcast{
+    display:flex;
+    flex-wrap: nowrap;
+    padding:10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+           }
+          
+.podcastinfo{
+    letter-spacing: 1px;
+    margin-left: 2%;
+    margin-top: 5%;
+           }
+
+.podcast h3{
+     color:black;
+      text-align: left;
+      margin-bottom: 1%;
+          }
+          
+          
+.podcastportada{
+    width:50%;
+    margin-left: 10%;
+          }
+          
+.podcastportada img{
+    width:100%;
+    box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+              }
+            
+.podcastinfo img{
+     width: 60%;
+     margin-top: 3%;
+     margin-left: 1%;
+          }
+
+.planos{
+  width:100%;
+  margin-bottom: 1%;
+            
+         }   
+.planos img{
+   width:100%;
+   opacity: 0.90;
+               
+            }
+        
+.firma{
+   width:200px;
+   margin-left: 43%;
+   margin-bottom: 2%;
+        }
+        
+.firma img{
+  width:100%;
+            }
+
+
+ #direccion{
+
+  margin-top: 10%;
+  
+ }
+
+ #direccion img{
+    width:100%;
+    padding: 20px;
+    box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+    height:400px;
+  }    
+  
+ #galeriados .col-lg-4{
+  padding:20px;
+  margin: 0;
+
+  
+ }
+
+ #galeriados img{
+  width:80%;
+  height:400px;
+  box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+  background-image: url(../img/ladrillo.png);
+  background-size: cover;
+ }
+
+.ladrillos{
+  background: rgb(66, 47, 1);
+}
+
+#c-img img:hover {
+  background: rgba(5,7,12,0.40);
+}
+
+.productor{
+  width:70%;
+  height: 200px;
+  margin:auto;
+  margin-top: 5%;
+}
+  .productor img{
+    width:100%;
+    padding: 5px;
+    margin-top: 10%;
+    box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+  }
+
+
+.comoprodu{
+  width:100%;
+  margin-top: 25%;
+}
+
+#guionista{
+  width:85%;
+}
+
+#guionista img{
+  width:100%;
+  margin-top: 10%;
+  height:700px;
+  box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+  padding: 10px;
+}
+
+#couno{
+  width: 40%;
+  display:flex;
+  justify-content: space-between;
+  margin-top: 6%;
+}
+
+  #couno img{
+    width:100%;
+    padding:5%;
+  }
+
+
+
+.best{
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+Font-size: 50px;
+color: rgb(168, 27, 27);
+margin-top: 4rem;
+margin-left: 40%;
+padding: 5%;
+
+}
+
+
+
+.card{
+  padding:5px;
+  margin-left: 3rem;
+  margin-top: 5%;
+  box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+  margin-bottom: 3rem;
+
+}
+
+.tarjetas{
+  margin-top:5%;
+  background: url(../img/ladrillo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.pie-pagina{
+  width:100%;
+  background-color:rgb(19, 18, 17);
+
+}
+
+.pie-pagina .grupo-1{
+  width:100%;
+  max-width:1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width:230px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+  color:rgb(254, 185, 2);
+  margin-bottom:25px;
+  font-size:20px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.pie-pagina .grupo-1 .box p{
+  color: rgb(254, 185, 2);
+  margin-bottom:10px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+  display:inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height:45px;
+  color:#fff;
+  margin-right: 10px;
+  background:#0d2033;
+  text-align: center;
+}
+
+.circulos{
+  width: 500px;
+ display: flex;
+ justify-content: space-between;
+ padding:30px;
+ margin-top: 5%;
+ margin-bottom: 5%;
+
+}
+
+
+
+.circulos img{
+  width:100%;
+  border-radius: 50%;
+  margin-left: 30px;
+  box-shadow: 0 0 6px 0 rgb(23, 23, 21);
+}
+
+.video{
+ padding:20px;
+ margin-left: 30%;
+ margin-top: 1%;
+
+
+}
+
+.titulos{
+  font-family: 'Nanum Myeongjo', serif;
+  color:black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 4%;
+
+}
+
+
+@media screen and (min-width:0px) and (max-width:580px){
+
+  
+  h1{
+        margin-top: 6%;
+          margin-right: 5%;
+          font-size: 30px;
+          color:rgb(250,211,14);
+  
+            }
+  
+  .intro{
+          width:100%;
+          flex-direction: column-reverse;
+          }
+  
+  
+  .movies{
+           width: 50%;
+          margin-bottom: 10px;
+          margin-top: 5px;
+          margin: auto;
+            
+          }
+      
+  .listado{
+              width: 100%;
+             text-decoration: none;
+             margin-top: 10px;
+             background-color: grey;
+             padding: 10px;
+             margin-bottom: 20px;
+          }
+          
+  li{
+              font-size: 15px;
+              color:rgb(250,211,14);
+          }
+          
+  
+   h2{
+          font-size: 20px;
+              }
+  
+   .info{
+      flex-direction: column;
+      padding: 5px;
+      justify-content: center;
+              }
+  
+  
+   .historia{
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+         
+          
+              
+                   }
+          .historia img{
+              margin-bottom: 5px;
+                  }
+              
+          .historia h3{
+              margin-bottom: 10px;
+                  }
+  
+  .educacion{
+          width: 50%;
+          margin-top: 30px;
+          display:flex;
+          flex-direction: column;
+          margin-left: 130px;
+                      
+                  }
+                  
+          .educacion img{
+                  margin-bottom: 5px;
+                      }
+                  
+          .educacion h3{
+                  margin-bottom: 10px;
+                  margin-top: 5px;
+                      }
+  
+  .cajapremios{
+          width:90%;
+                      }
+                      
+              .premios{
+                  display:flex;
+                  flex-direction: column;
+                  flex-wrap: wrap;
+                  
+                      
+                      }
+                      
+              .cajapremios h2{
+                  padding:15px;
+                  text-align: center;
+                          }
+                      
+              .cajapremios ul li{
+                      font-size: 13px;
+                      text-align: left;
+                      color: grey;
+                              
+                          }
+  .primer{
+          display:flex;
+          flex-direction: column;
+          margin-top: 5%;
+          margin-bottom: 5%;
+                          }
+                          
+  .libro{
+          width:80%;
+          margin: auto;
+          margin-top: 5%;
+                          }
+                          
+                  .libro img{
+                          margin-bottom: 3%;
+                              }
+                  .libro h3{
+                          margin-bottom: 2%;
+                              }
+  
+  .peli{
+          width:100%;
+              }
+              .peli img{
+                      width:100%;
+                      margin-bottom: 1%;
+                                  }
+  
+  
+  .podcast{
+          flex-wrap: wrap;
+          padding:10px;
+                  }
+  
+                  .podcast h3{
+                      text-align: center;
+                      margin-bottom: 2%;
+                  }
+                                  
+  .podcastinfo{
+          letter-spacing: 1px;
+          text-align: center;
+          margin-top: 5%;
+                  }
+                  .podcastinfo img{
+                      width: 70%;
+                      margin:auto;
+                      padding: 10px;
+                  }
+                 
+                                  
+                                  
+  .podcastportada{
+          width:70%;
+          margin: auto;
+                      }
+                                  
+                                    
+                              
+  }
+  
+  
+  @media screen and (min-width:0px) and (max-width:768px){
+  
+  
+  h1{
+        margin-top: 6%;
+          margin-right: 5%;
+          font-size: 30px;
+          color:rgb(250,211,14);
+  
+            }
+  
+  .intro{
+      width:100%;
+      flex-direction: column-reverse;
+              }
+      
+      
+      .movies{
+               width: 60%;
+              margin-bottom: 10px;
+              margin-top: 50px;
+              margin: auto;
+                
+              }
+          
+      .listado{
+                  width: 100%;
+                 margin-top: 10px;
+                 background-color: grey;
+                 padding: 10px;
+                 margin-bottom: 20px;
+              }
+              
+      li{
+                  font-size: 20px;
+                  color:rgb(250,211,14);
+              }
+  
+  
+  h2{
+      font-size: 20px;
+                      }
+          
+  .info{
+      flex-direction: column;
+      padding: 5px;
+      width:70%;
+      justify-content:center;
+      margin: 2%;
+                      }
+          
+  .historia{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 207px;
+                              
+              }
+  .historia img{
+      margin-bottom: 5px;
+              }
+                              
+  .historia h3{
+      margin-bottom: 10px;
+              }   
+                      
+  
+              .educacion{
+                  width: 50%;
+                  margin-top: 30px;
+                  display:flex;
+                  flex-direction: column;
+                  margin-left: 181px;
+                              
+                          }
+                          
+                  .educacion img{
+                          margin-bottom: 5px;
+                              }
+                          
+                  .educacion h3{
+                          margin-bottom: 10px;
+                          margin-top: 5px;
+                              }
+  
+  
+              .cajapremios ul li{
+                  font-size: 13px;
+                  text-align: left;
+                  color: grey;
+                          
+                      }
+  
+                      .primer{
+                          flex-direction: column;
+                          margin-top: 2%;
+                      
+                                          }
+                                          
+                  .libro{
+                          width:80%;
+                          margin: auto;
+                          margin-top: 5%;
+                                          }
+                                          
+                                  .libro img{
+                                          margin-bottom: 3%;
+                                              }
+                                  .libro h3{
+                                          margin-bottom: 2%;
+                                              }
+                  
+  .peli{
+          width:100%;
+                  }
+      .peli img{
+              width:100%;
+              margin-bottom: 1%;
+                   }
+  
+  .podcast{
+          flex-wrap: wrap;
+          padding:10px;
+                  }
+                                              
+      .podcast h3{
+          text-align: center;
+          margin-bottom: 2%;
+                  }
+                                                                              
+  .podcastinfo{
+          letter-spacing: 1px;
+          text-align: center;
+          margin-top: 5%;
+                  }
+      .podcastinfo img{
+              width: 70%;
+              margin:auto;
+              padding: 10px;
+                  }
+                                                             
+                                                                              
+                                                                              
+   .podcastportada{
+              width:60%;
+               margin: auto;
+                  }
+  
+  
+  .cajapremios{
+          width:90%;
+          padding: 20px;
+  
+              }
+  
+  .premios{
+  
+                  flex-direction: column;
+                  flex-wrap: wrap;
+                
+              
+              }
+  
+              .cajapremios ul li{
+                  font-size: 14px;
+                  padding: 5px;
+                          
+                      }
+  
+                      .cajapremios h2{
+                          padding:5px;
+                          
+                      }
+  
+  
+  
+  
+  
+  
+  
+      }
